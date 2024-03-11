@@ -1,11 +1,5 @@
-
-import './App.css';
-import RestBasic from './rest-basic';
-
-function App() {
-  return (
-    <RestBasic />
-  );
+import React from 'react'
+import FormGet from './form-get'
+export default function App() {
+  return <FormGet />
 }
-
-export default App;
